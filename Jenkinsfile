@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/michabl116/Tehtava_20_11_2025.git'
+                git branch: 'main', url: 'https://github.com/michabl116/Tehtava_20_11_2025.git'
             }
         }
 
